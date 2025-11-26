@@ -1,0 +1,14 @@
+
+#problem definition
+    NYears = 10
+    NMonths = 6
+    NStages = 20
+    NHoursStep = 1.0
+
+#NSteps = 87600
+
+#General
+    Big = 1.1
+    conv = 0.001
+    bin = 4
+
