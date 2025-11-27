@@ -1,6 +1,6 @@
-DataPath = C:\\Users\\Utente\\Desktop\\ASJA\\OCRA_1.0_variabili_ridotte
-InputPath = C:\\Users\\Utente\\Desktop\\ASJA\\OCRA_1.0_variabili_ridotte
-ResultPath = C:\\Users\\Utente\\Desktop\\ASJA\\OCRA_1.0_variabili_ridotte
+DataPath = C:\\GitHub\\OCRA_1.0_variabili ridotte
+InputPath = C:\\GitHub\\OCRA_1.0_variabili ridotte
+ResultPath = C:\\GitHub\\OCRA_1.0_variabili ridotte
 #ending to case name 
 CaseName = _Version_exact_inequalities
 

@@ -97,10 +97,10 @@ struct Results
     x::Any
     y::Any
     z::Any
-    w_xx::Any
-    w_yy::Any
-    w_zz::Any
-    w_xy::Any
+    xy::Any
+    xz::Any
+    yz::Any
+    xyz::Any
     rev::Any
     cap::Any
 end

@@ -432,7 +432,7 @@ function calculate_coefficients(min_SOC,max_SOC,bin)
     c[6]= b[6]-b[2]-b[5]+b[1]
     c[7]= b[10]-b[9]-b[2]+b[1]
     c[8]= b[7]-c[3]-c[2]-b[1]
-    c[9]= b[11]-b[3]-c[4]-c[6]
+    c[9]= b[11]-b[1]-c[4]-c[2]
     c[10]= b[13]-b[1]-c[4]-c[3]
     c[11]= 0
   else

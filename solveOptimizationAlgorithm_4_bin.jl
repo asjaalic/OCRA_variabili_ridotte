@@ -1,6 +1,6 @@
 # SOLVE OPTIMIZATION PROBLEM
 
-function solveOptimizationProblem(InputParameters::InputParam, SolverParameters::SolverParam, Battery::BatteryParam, disc, c, b)
+function solveOptimizationProblem_4(InputParameters::InputParam, SolverParameters::SolverParam, Battery::BatteryParam, disc, c, b)
 
     @unpack (NYears, NMonths, NStages, Big, NHoursStep, bin) = InputParameters;                #NSteps, NHoursStage
     @unpack (min_SOC, max_SOC, Eff_charge, Eff_discharge, min_P, max_P, max_SOH, min_SOH, Nfull,fix ) = Battery;
@@ -116,7 +116,7 @@ function solveOptimizationProblem(InputParameters::InputParam, SolverParameters:
     
     println("Collected results")
 
-    return Results(
+    return Results_4_bin(
         objective,
         revenues_per_stage,
         gain_stage,
